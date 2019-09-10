@@ -1,0 +1,10 @@
+.numberButton {
+  width: 40px;
+  height: 40px;
+  background: #1c4378;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
