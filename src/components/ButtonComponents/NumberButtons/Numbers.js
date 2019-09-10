@@ -8,8 +8,9 @@ import numbers from '../../../data';
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
-  const [ padNumbers, setPadNumbers ] = useState(numbers)
-
+  const numbersState = useState(numbers)
+  const padNumbers = numbersState[0];
+  
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
