@@ -9,3 +9,9 @@
   justify-content: center;
   margin: 20px;
 }
+
+.specialsList {
+  /* max-width: 300px; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
