@@ -19,8 +19,8 @@ const Operators = () => {
       {
         operatorCharacters.map(operator => (
           <OperatorButton
-            key={operator}
-            operator={operator}
+            key={operator.char}
+            operator={operator.char}
           />
         ))
       }
