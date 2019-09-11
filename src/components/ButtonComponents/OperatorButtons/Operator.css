@@ -1,0 +1,18 @@
+.operatorButton {
+  width: 60px;
+  height: 60px;
+  background: #2a7292;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  color: white;
+}
+
+.operatorsList {
+  /* max-width: 300px; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
